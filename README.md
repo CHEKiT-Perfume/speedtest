@@ -30,12 +30,7 @@ $ pip install selenium
 ```
 $ pip install webdriver_manager
 ```
-## Windows EXEファイルへの変換
 
-```
-$ pip install pyinstaller<br>
-$ pyinstaller speedtest.py –onefile -noconsole<br>
-```
 
 ## 使い方
 
@@ -45,6 +40,16 @@ $ pyinstaller speedtest.py –onefile -noconsole<br>
 $ git clone git@github.com:CHEKiT-Perfume/speedtest.git
 $ cd speedtest
 $ python speedtest.py
+```
+
+## exeファイルへの変換
+
+exeに変換したい場合speedtest.pyがあるフォルダで下記コマンドを実行してください<br>
+distのフォルダの中にexeファイルが作成されます<br>
+
+```
+$ pip install pyinstaller
+$ pyinstaller speedtest.py –onefile -noconsole
 ```
 
 ## 作者
