@@ -34,13 +34,20 @@ $ pip install webdriver_manager
 
 ## 使い方
 
-リポジトリをクローンしてspeedtest.pyを実行してください
+リポジトリをクローンしてspeedtest.pyを実行してください<br>
 
 ```
 $ git clone git@github.com:CHEKiT-Perfume/speedtest.git
 $ cd speedtest
 $ python speedtest.py
 ```
+
+リポジトリをクローンするとexeファイルもダウンロードされます。<br>
+必要ない場合は削除してください。<br>
+ダブルクリックすると実行されるので、任意のフォルダに置いていただき<br>
+タスクスケジューラへの登録をしていただければ定期実行されます<br>
+タスク作成の際は下記も参考にしてください<br>
+https://jpwinsup.github.io/blog/2023/02/07/UserInterfaceAndApps/Repeat-task-indefinitely-issues/<br>
 
 ## exeファイルへの変換
 
