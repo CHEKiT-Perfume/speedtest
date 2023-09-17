@@ -54,5 +54,5 @@ $ pyinstaller speedtest.py –onefile -noconsole
 
 ## 作者
 
-[@GOETAN_GOETAN(https://twitter.com/GOETAN_GOETAN)<br>
+[@GOETAN_GOETAN(https://twitter.com/GOETAN_GOETAN)]<br>
 mail to: h.kawagoe@it-guardian.jp<br>
