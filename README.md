@@ -19,24 +19,32 @@ fast.comのサイトにChromeでアクセスしてその時の回線速度を取
 ■Pythonのインストール<br>
 https://www.python.jp/install/windows/install.html<br>
 ■PowerShellの環境設定<br>
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force<br>
+```
+$ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force<br>
+```
 ■Seleniumのインストール<br>
-pip install selenium<br>
+```
+$ pip install selenium<br>
+```
 ■webdriver_managerのインストール<br>
-pip install webdriver_manager<br>
-
+```
+$ pip install webdriver_manager<br>
+```
 ## Windows EXEファイルへの変換
 
-pip install pyinstaller<br>
-pyinstaller speedtest.py –onefile -noconsole<br>
+```
+$ pip install pyinstaller<br>
+$ pyinstaller speedtest.py –onefile -noconsole<br>
+```
 
-## インストール
+## 使い方
+
+リポジトリをクローンしてspeedtest.pyを実行してください
 
 ```
-$ git clone https://github.com/TomoakiTANAKA/awesome-tool
-$ cd awesome-tool
-$ sh setup.sh
-$ ~do anything~
+$ git clone git@github.com:CHEKiT-Perfume/speedtest.git
+$ cd speedtest
+$ python speedtest.py
 ```
 
 ## 作者
