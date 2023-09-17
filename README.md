@@ -17,7 +17,7 @@ fast.comのサイトにChromeでアクセスしてその時の回線速度を取
 
 以下をインストールしてください<br>
 ■Pythonのインストール<br>
-https://www.python.jp/install/windows/install.html<br>
+https://www.python.jp/install/windows/install.html<br><br>
 ■PowerShellの環境設定<br>
 ```
 $ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
