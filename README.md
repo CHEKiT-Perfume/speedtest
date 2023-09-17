@@ -7,11 +7,11 @@ SpeedTest on fast.com
 fast.comのサイトにChromeでアクセスしてその時の回線速度を取得します。<br>
 実行したフォルダにout.csvができますのでタスクスケジューラなり、Cronなりで定期実行してください<br>
 
-## 必要要件
+## 実行環境
 
-- Python
-- Selenium 
-- webdriver_manager
+- Python 3.11.5
+- Selenium 4.12.0
+- webdriver-manager 4.0.0
 
 ## 使い方
 
@@ -20,15 +20,15 @@ fast.comのサイトにChromeでアクセスしてその時の回線速度を取
 https://www.python.jp/install/windows/install.html<br>
 ■PowerShellの環境設定<br>
 ```
-$ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force<br>
+$ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
 ■Seleniumのインストール<br>
 ```
-$ pip install selenium<br>
+$ pip install selenium
 ```
 ■webdriver_managerのインストール<br>
 ```
-$ pip install webdriver_manager<br>
+$ pip install webdriver_manager
 ```
 ## Windows EXEファイルへの変換
 
